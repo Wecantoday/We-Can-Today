@@ -1,28 +1,26 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>We Can Today Ltd. Co.</title>
   <style>
     :root {
-      --lila: #DAC4F7;
-      --negro: #000000;
-      --celeste: #6EF9F5;
-      --verde: #53FF45;
-      --verde-suave: #82FA8C;
+      --black: #000000;
+      --cyan: #6EF9F5;
+      --green: #53FF45;
     }
 
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: var(--lila);
-      color: var(--negro);
+      background-color: #ffffff;
+      color: var(--black);
     }
 
     header {
-      background-color: var(--verde-suave);
+      background-color: var(--green);
       text-align: center;
       padding: 2rem 1rem;
     }
@@ -35,13 +33,13 @@
     h1 {
       margin-top: 1rem;
       font-size: 2rem;
-      color: var(--negro);
+      color: var(--black);
     }
 
     .slogan {
       font-size: 1.2rem;
       margin-top: 0.5rem;
-      color: var(--celeste);
+      color: var(--cyan);
     }
 
     section {
@@ -54,7 +52,7 @@
     }
 
     h2 {
-      color: var(--negro);
+      color: var(--black);
     }
 
     .services {
@@ -65,8 +63,8 @@
     .contact {
       margin-top: 2rem;
       padding: 1rem;
-      background-color: var(--verde-suave);
-      border-left: 5px solid var(--celeste);
+      background-color: #f0f0f0;
+      border-left: 5px solid var(--cyan);
       border-radius: 8px;
     }
 
@@ -74,15 +72,28 @@
       margin: 0.5rem 0;
     }
 
+    .text-us {
+      margin-top: 1rem;
+      padding: 1rem;
+      background-image: url('https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
     footer {
-      background-color: var(--negro);
+      background-color: var(--black);
       color: #fff;
       text-align: center;
       padding: 1rem;
     }
 
     a {
-      color: var(--negro);
+      color: var(--black);
       text-decoration: none;
       font-weight: bold;
     }
@@ -95,26 +106,27 @@
 <body>
 
   <header>
-    <img src="https://i.postimg.cc/t4CKyMVq/WE-CAN-LOGO.png" alt="Logo We Can Today" />
+    <img src="https://i.postimg.cc/t4CKyMVq/WE-CAN-LOGO.png" alt="We Can Today Logo" />
     <h1>We Can Today Ltd. Co.</h1>
-    <p class="slogan">Servicios de mantenimiento doméstico e industrial</p>
+    <p class="slogan">Home & Industrial Maintenance Services</p>
   </header>
 
   <section>
-    <h2>¿Qué hacemos?</h2>
+    <h2>What We Do</h2>
     <p class="services">
-      Nos especializamos en <strong>lavado a presión de driveways</strong> y otras soluciones de limpieza exterior, ofreciendo resultados de calidad y atención profesional.
+      We specialize in <strong>pressure washing driveways</strong> and other exterior cleaning solutions, offering top-quality results and professional service.
     </p>
 
     <div class="contact">
-      <h3>Contáctanos</h3>
-      <p><strong>Teléfono:</strong> 346-669-3690</p>
+      <h3>Contact Us</h3>
+      <p><strong>Phone:</strong> <a href="tel:+13466693690">+1 (346) 669-3690</a></p>
       <p><strong>Email:</strong> <a href="mailto:info@wecantoday.com">info@wecantoday.com</a></p>
+      <div class="text-us">Text us to book your service!</div>
     </div>
   </section>
 
   <footer>
-    © 2025 We Can Today Ltd. Co. | Todos los derechos reservados.
+    © 2025 We Can Today Ltd. Co. | All rights reserved.
   </footer>
 
 </body>
