@@ -77,22 +77,32 @@
       margin: 0.5rem 0;
     }
 
-   .text-us {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: transparent;
+   .text-us-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  text-align: center;
+}
+
+.text-us {
+  display: block;
+  padding: 0.6rem 1rem;
+  background-color: var(--green);
   color: var(--black);
   font-weight: bold;
-  text-align: center;
+  border-radius: 12px;
   text-decoration: none;
-  border-radius: 8px;
-  box-shadow: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  font-size: 1rem;
 }
-.text-us-container {
-    text-align: center;
-    margin-top: 1rem;
-  }
+
+.text-us img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 8px;
+  width: 100px;
+}
     footer {
       background-color: var(--black);
       color: #fff;
